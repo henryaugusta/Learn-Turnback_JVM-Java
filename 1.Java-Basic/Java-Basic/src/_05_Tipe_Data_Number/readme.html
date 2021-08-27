@@ -6,6 +6,7 @@
     <li>Floating Number (Desimal)</li>
 </ul>
 
+<h3>Integer Number</h3>
 <Table>
     <tr>
         <td>Tipe Data</td>
@@ -43,3 +44,39 @@
         <td>0</td>
     </tr>
 </Table>
+
+<h3>Floating Point Number</h3>
+<Table>
+    <tr>
+        <td>Tipe Data</td>
+        <td>Min</td>
+        <td>Max</td>
+        <td>Size</td>
+        <td>Default</td>
+    </tr>
+    <tr>
+        <td>Float</td>
+        <td>3.4e-038</td>
+        <td>3.4e-038</td>
+        <td>4 bytes</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td>Double</td>
+        <td>1.7e-308</td>
+        <td>1.7e-308</td>
+        <td>8 bytes</td>
+        <td>0.0</td>
+    </tr>
+
+
+</Table>
+
+<h3>Konversi Tipe Data</h3>
+<p>Widening vs Narrowing, Widening otomatis terkonversi, Narrowing harus dikonversi sendiri</p>
+<ul>
+    <li>Widening : byte->short->int->long->float->double</li>
+    <li>Shortening : doubLe->float->long->int->short->byte</li>
+</ul>
+<p>Hati-hati ketika melakukan Narrowing, bisa terjadi number Overflow</p>
+
